@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 9</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<?php 
+
+	$preciop = 10000;
+		if($preciop < 10000)
+			echo "La comisión es ". $preciop * 1.05 . " €";
+		elseif ($preciop <= 20000) {
+			echo "La comisión es ". $preciop * 1.08 . " €";
+	}
+		elseif ($preciop <= 40000) {
+			echo "La comisión es ". $preciop * 1.1 . " €";
+	}
+		else
+			echo "La comisión es ". $preciop * 1.13 . " €";
+	?>
+
+</body>
+</html>
